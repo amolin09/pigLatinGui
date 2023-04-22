@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>Pig Latin Translation</h1>
+  <hr/>
+ 
+  <form id="pig-Latin-Form" autocomplete="off" target="_blank">
+    <input id="user-input" type="text" onkeyup="updateWord(this)">
+    <!-- How do you get this input sent to the pigLatin() function? -->
+    <button id = "button" onclick="convertToPigLatin()">Translate</button>
+  </form>  
+
+  <hr/>
+  <div id="display-element">
+    <p id="output"></p>
+  </div>
+</body>
+
+</html>
